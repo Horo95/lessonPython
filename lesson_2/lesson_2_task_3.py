@@ -1,9 +1,9 @@
+import math
 def square(c):
-    
-    s=round(c*c)
+    s=(c*c)
 
     print('Сторона квадрата: ', c)
-    print('Площадь квадрата: ', s)
+    print('Площадь квадрата: ', math.ceil(s))
 
 c=float(input('Введите сторону квадрата:'))
 square(c)    

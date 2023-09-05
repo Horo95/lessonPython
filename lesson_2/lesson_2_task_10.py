@@ -1,9 +1,8 @@
-
-
+import math
 def bank(x,y):
     for i in range(1,y+1):
         p=x*0.1
-        x+=p
+        x+=round(p,4)
         summa=x
     print('Через', i, 'год/лет','на счету будет',summa)
             
